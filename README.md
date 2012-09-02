@@ -1,3 +1,17 @@
+# Description
+
+Crash OS is a small experimental **operating system** that is supposed to grow
+over the next few months. It will hopefully stick to the POSIX standard in the
+end and largely be based on Tanenbaums **Operating Systems: Design And
+Implementation**.
+
+## Current state
+
+Currently there is a bootloader existing that displays a small message.
+I wrote a C program that creates a bootable image file as well (the same could
+have been achieved by using the 'dd' command but I wanted to learn more C
+anyway).
+
 ## How to install
 
 ### Prequisites
