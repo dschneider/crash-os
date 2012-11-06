@@ -32,5 +32,5 @@ int main()
   fwrite(boot_buffer, 512, 1, boot_file);
   fclose(boot_file);
 
-  return 1;
+  return 0;
 }
